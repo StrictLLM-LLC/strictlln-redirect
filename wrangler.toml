@@ -10,3 +10,7 @@ directory = "./docs"
 [[routes]]
 pattern = "strictlln.com"
 custom_domain = true
+
+[[routes]]
+pattern = "www.strictlln.com"
+custom_domain = true
