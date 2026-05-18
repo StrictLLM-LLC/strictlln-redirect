@@ -1,0 +1,12 @@
+"$schema" = "./node_modules/wrangler/config-schema.json"
+
+name = "strictlln-redirect"
+compatibility_date = "2026-05-18"
+workers_dev = false
+
+[assets]
+directory = "./docs"
+
+[[routes]]
+pattern = "strictlln.com"
+custom_domain = true
